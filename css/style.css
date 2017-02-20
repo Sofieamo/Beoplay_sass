@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+	padding:2%;
+}
+
+a, p, h1, h2, label, select, button {
+	font-family: 'Raleway', sans-serif;
+}
+
+/* header css */
+
+#logo {
+	position:absolute;
+}
+
+#headernav {
+	text-align:center;
+	width:80%;
+	margin:auto;
+}
+
+#headernav > ul > li {
+	display:inline-block;
+	text-align:center;
+	font-family:"Palatino Linotype", Palatino;
+	color:#2a2a2a;
+}
+
+
+#topnav {
+	font-size: 23px;
+    border-bottom: solid 0.5px #f1f1f1;
+    padding: 20px;
+	margin:0;
+}
+
+#downnav {
+    padding: 16px;
+	margin:0;
+}
+
+#topnav a {
+	text-decoration:none;
+	padding-right:20px;
+	padding-left:20px;
+	color:#6d6d6d;
+	font-weight:200;
+	
+}
+
+#downnav a {
+	text-decoration:none;
+	font-size:14px;
+	padding-left:10px;
+	padding-right:10px;
+	text-transform:uppercase;
+	color:#b2b2b2;
+}
+
+#topnav a:hover {
+	color:#333333;
+	text-decoration:underline;
+}
+
+#downnav a:hover {
+	color:#333333;
+	text-decoration:underline;
+}
+
+header button:hover {
+	background-color:#b2b2b2;
+	color:#3f3f3f;
+}
+
+header button {
+	color:#FFFFFF;
+	background-color:#3f3f3f;
+	border: none;
+    padding: 10% 24%;
+    text-align: center;
+	border-radius:25px;
+	text-transform:uppercase;
+}
+
+/* content css*/
+
+ main {
+	display:block;
+	background-color:#f1f1f1;
+}
+
+article {
+	display:block;
+	background-color:#f1f1f1;
+	margin-left:10%;
+	margin-right:10%;
+	width:80%;
+	height:450px;
+}
+
+#productimg {
+	float:left;
+	width:48%;
+}
+
+#text {
+	float:left;
+	width:48%;
+	margin-top:10%;
+	margin-left:25px;
+	color:#666666;
+	font-weight:200;
+}
+
+article h1 {
+	font-size:40px;
+	margin-bottom:20px;
+	text-transform:uppercase;
+	
+}
+
+article p {
+	font-size:25px;
+	margin-bottom:60px;
+}
+
+.price {
+}
+
+#mainnav1 {
+	display:inline-block;
+	background-color:#292929;
+	width:100%;
+	padding-bottom:20px;
+	padding-top:20px;
+	text-align:center;
+	font-weight:200;
+}
+
+#line {
+	display:block;
+	height:1px;
+}
+
+#mainnav2 {
+	display:inline-block;
+	background-color:#292929;
+	width:100%;
+	padding-bottom:20px;
+	padding-top:20px;
+	text-align:center;
+}
+
+#mainnav1 li {
+	display:inline-block;
+	text-align:center;
+	font-family:"Palatino Linotype", Palatino;	
+}
+
+#mainnav2 li {
+	display:inline-block;
+	text-align:center;
+	font-family:"Palatino Linotype", Palatino;	
+}
+
+#mainnav1 a, label {
+	text-decoration:none;
+	color:#e2e2e2;
+	font-size:20px;
+	padding:10px;
+	
+}
+
+#mainnav1 select {
+	color:#e2e2e2;
+	background-color:#181818;
+	font-size:20px;
+	border: none;
+	border-radius:25px;
+	
+}
+
+#mainnav2 a {
+	text-decoration:none;
+	color:#f1f1f1;
+	padding:10px;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+#mainnav1 a:hover {
+	text-decoration:underline;
+}
+
+#quotebox {
+	background-color:#333333;
+}
+
+
+section {
+	text-align:center;
+	padding:10%;
+}
+
+section a {
+	text-decoration:none;
+	font-size:12px;
+	color:#666666;
+	text-transform:uppercase;
+}
+
+section p {
+	font-size:60px;
+	color:#f1f1f1;
+	font-family: 'Ramaraja', serif;
+	font-weight:bold;
+	padding-bottom:10px;
+}
+
+footer {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+footer p, a{
+	color:#666666;
+	margin-bottom:10px;
+}
+
+footer ul li {
+	display:inline-block;
+	font-size:11px;
+	text-transform:uppercase;
+	padding:10px;
+}
+
+#mail {
+	text-decoration:none;
+}
+
+#beo {
+	font-weight:bold;
+}
+
+/* modal box */
+
+#modal-box {
+	display:none;
+    position: fixed;
+    z-index: 1; 
+	right: 0;
+    bottom: 0;
+    background-color:#f0eee9;
+	margin-right:2%;
+	text-align:center;
+}
+
+#modal-box img {
+	float:left;
+}
+
+#aside-text {
+	float:left;
+}
+
+#aside-head {
+	font-size:25px;
+	font-weight:bold;
+	color:#bcb2a5;
+	margin: 20px 15px;
+}
+
+#aside-p {
+	color:#bcb2a5;
+	text-align:center;
+	margin: 15px 15px 40px;
+}
+
+#modal-box a {
+	background-color: #bcb2a5;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px 90px;
+	text-decoration:none;
+
+}
+
+#modal-box a:hover {
+}
+
+
+#mybutton {
+	color:#FFFFFF;
+	background-color:#3f3f3f;
+	border: none;
+    text-align: center;
+	border-radius:80%;
+	position:absolute;
+	top:-10px;
+	left:-10px;
+	font-size:20;
+	height:30px;
+	width:30px;
+}
+
+#mybutton:hover {
+	background-color:#b2b2b2;
+	color:#3f3f3f;
+}
